@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InspectFragment">
+
+    <Button
+        android:id="@+id/inspectButton"
+        android:layout_width="298dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="57dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/inspectText"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inspectText1" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/inspectText1"
+        android:layout_width="298dp"
+        android:layout_height="195dp"
+        app:cardElevation="3dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/inspectButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/inspectText"
+            style="@style/LayoutBackground"
+            android:layout_width="298dp"
+            android:layout_height="195dp"
+
+            android:ems="10"
+            android:gravity="top|start"
+            android:hint="Enter text here..."
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/inspectButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/inspect"
+        android:icon="@drawable/baseline_location_searching_24"
+        android:id="@+id/navigation_inspect"
+        />
+    <item android:title="@string/home"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/navigation_home"
+        />
+    <item android:title="@string/settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:id="@+id/navigation_settings"
+        />
+</menu>

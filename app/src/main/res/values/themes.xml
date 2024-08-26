@@ -1,0 +1,128 @@
+
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
+        <item name="colorPrimaryDark">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="screenTheme">@style/LayoutBackground</item>
+        <item name="screenSubTheme">@style/LayoutBackground.Light</item>
+        <item name="cardView">@style/Base.Widget.Material3.CardView</item>
+        <item name="layoutBackground">@style/LayoutBackground</item>
+        <item name="materialSwitchStyle">@style/Widget.App.Switch</item>
+    </style>
+
+    <style name="AppTheme.Green" parent="AppTheme">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorOnPrimary">@color/md_theme_green_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_green_light_onPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_green_light_onPrimaryContainer</item>
+        <item name="screenTheme">@style/LayoutBackground</item>
+        <item name="screenSubTheme">@style/LayoutBackground.Light</item>
+        <item name="cardView">@style/Base.Widget.Material3.CardView</item>
+        <item name="layoutBackground">@style/LayoutBackground.Light</item>
+        <item name="colorPrimaryDark">@color/md_theme_green_light_onPrimaryContainer</item>
+    </style>
+
+    <style name="AppTheme.Brown" parent="AppTheme">
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorOnPrimary">@color/md_theme_brown_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_brown_light_onPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_brown_light_onPrimaryContainer</item>
+        <item name="screenTheme">@style/LayoutBackground</item>
+        <item name="screenSubTheme">@style/LayoutBackground.Light</item>
+        <item name="cardView">@style/Base.Widget.Material3.CardView</item>
+        <item name="layoutBackground">@style/LayoutBackground.Light</item>
+        <item name="colorPrimaryDark">@color/md_theme_brown_light_onPrimaryContainer</item>
+    </style>
+
+    <style name="AppTheme.Yellow" parent="AppTheme">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorOnPrimary">@color/md_theme_yellow_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_yellow_light_onPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_yellow_light_onPrimaryContainer</item>
+        <item name="screenTheme">@style/LayoutBackground</item>
+        <item name="screenSubTheme">@style/LayoutBackground.Light</item>
+        <item name="cardView">@style/Base.Widget.Material3.CardView</item>
+        <item name="layoutBackground">@style/LayoutBackground.Light</item>
+        <item name="colorPrimaryDark">@color/md_theme_yellow_light_onPrimaryContainer</item>
+    </style>
+
+
+    <style name="Widget.App.Switch" parent="">
+
+        <item name="colorPrimary">@color/md_theme_dark_onPrimary</item>
+        <item name="colorSurfaceVariant">@color/md_theme_dark_onPrimaryContainer</item>
+    </style>
+
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Button</item>
+    </style>
+
+    <style name="Base.Widget.Material3.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="background">@drawable/bottom_view_style_top</item>
+    </style>
+
+    <style name="ThemeOverlay.Button" parent="" >
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="AppTheme.Green.Edittext" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@color/md_theme_light_primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LayoutBackground" parent="AppTheme">
+        <item name="android:background">@drawable/bottom_view_style_top</item>
+        <item name="android:textColor">@color/md_theme_dark_scrim</item>
+    </style>
+
+    <style name="LayoutBackground.Light" parent="AppTheme">
+        <item name="android:background">?attr/colorPrimaryContainer</item>
+    </style>
+
+    <declare-styleable name="ScreenTheme">
+        <attr name="screenTheme" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ScreenSubTheme">
+        <attr name="screenSubTheme" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LayoutBackground">
+        <attr name="layoutBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CardView">
+        <attr name="cardView" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="SwitchView">
+        <attr name="materialSwitchStyle" format="reference" />
+    </declare-styleable>
+
+</resources>
